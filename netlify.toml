@@ -1,3 +1,4 @@
-git add netlify.toml
-git commit -m "Add netlify.toml to reset build settings"
-git push
+[build]
+  command = "npm run build"
+  publish = "build"
+  node_version = "20"
